@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine|Work+Sans&display=swap");
+footer.first {
+  margin: 0 2.5rem;
+  height: 2.5rem;
+  background: #555555;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 200%;
+  margin: 1% 5% 1% 4%;
+  color: #EEEFEF;
+}
+
+.social i:hover {
+  color: #8B877E;
+}
+
+footer.second {
+  margin: 0 2.5rem;
+  background: #555555;
+}
+
+footer.second p {
+  color: #EEEFEF;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+body {
+  background-image: url("/images/snow.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  font-family: 'Tangerine';
+  font-size: 3rem;
+}
+
+.navbar ul li {
+  padding: 0 1.5rem;
+}
+
+.navbar a:hover,
+.navbar button.navbar-toggler:hover {
+  color: #EEEFEF;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler-icon:focus {
+  outline: 1px solid #555555;
+  -webkit-box-shadow: 0 0 0 2pt #8B877E;
+          box-shadow: 0 0 0 2pt #8B877E;
+}
+
+.main-page {
+  margin-top: 10rem;
+}
+
+.main-page .title {
+  font-family: 'Tangerine';
+  font-size: 300%;
+  color: #555555;
+}
+
+.main-page .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nav-link {
+  color: #555555;
+}
+/*# sourceMappingURL=main.css.map */

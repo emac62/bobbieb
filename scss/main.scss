@@ -1,0 +1,61 @@
+$text-color: #555555;
+$light-color: #EEEFEF;
+$gray-color: #8B877E;
+$greeny-accent: #A5A090;
+$beige-accent: #8A7A67;
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Work+Sans&display=swap');
+@import 'footer';
+
+body {
+  //background: $greeny-accent;
+  background-image: url('/images/snow.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  //background-color: $greeny-accent;
+  
+  font-family: 'Tangerine';
+  font-size: 3rem;
+
+  ul li {
+    padding: 0 1.5rem;
+  }
+  a:hover,
+  button.navbar-toggler:hover {
+    color: $light-color
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: 1px solid $text-color;
+    
+    
+    box-shadow: 0 0 0 2pt $gray-color;
+}
+}
+
+
+.main-page {
+  margin-top: 10rem;
+  .title {
+    font-family: 'Tangerine';
+    font-size: 300%;
+    color: $text-color;
+  }
+
+  .middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+.nav-link {
+  color: $text-color;
+}
+

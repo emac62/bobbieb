@@ -1,0 +1,37 @@
+footer.first {
+  margin: 0 2.5rem;
+  height: 2.5rem;
+  background: $text-color;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+
+  li {
+    display: inline;
+  }
+  i {
+    font-size: 200%;
+    margin: 1% 5% 1% 4%;
+    color: $light-color;
+    
+  }
+  i:hover {
+    color: $gray-color;
+  }
+}
+
+footer.second {
+  margin: 0 2.5rem;
+  background: $text-color;
+
+  p {
+    color: $light-color;
+    text-align: center;
+    padding: 0.5rem;
+  }
+}
