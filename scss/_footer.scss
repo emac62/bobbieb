@@ -1,6 +1,6 @@
 footer.first {
-  margin: 0 2.5rem;
-  height: 2.5rem;
+  margin: 1rem;
+  height: 3.5rem;
   background: $text-color;
 }
 
@@ -11,27 +11,24 @@ footer.first {
   margin-bottom: 0;
   
 
-  li {
-    display: inline;
-  }
+  
   i {
+    padding: 1.5% 0;
     font-size: 200%;
     margin: 1% 5% 1% 4%;
     color: $light-color;
+    vertical-align: middle;
     
   }
   i:hover {
     color: $gray-color;
   }
-}
-
-footer.second {
-  margin: 0 2.5rem;
-  background: $text-color;
-
-  p {
+  .copy {
+    font-family: 'Work';
+    font-size: 125%;
     color: $light-color;
-    text-align: center;
-    padding: 0.5rem;
+    padding: 1% 0;
   }
 }
+
+
